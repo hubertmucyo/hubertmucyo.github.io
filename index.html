@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--==================== EMAIL SERVICE ====================-->
+        <!-- Sweet Alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Email.JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('gF3M_-jS8KuvoCpV4');
+            })();
+        </script>
+
+        <!--==================== CALENDAR SERVICE ====================-->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+        <!--==================== TITLE and Favicon ====================-->
+        <title>Mucyo Hubert's Portfolio 👋</title>
+        <!-- <link rel="shortcut icon" type="image/png" href="assets/img/"> --> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+        <!-- <link rel="manifest" href="/site.webmanifest"> -->
+
+        <!-- MS Tile - for Microsoft apps-->
+        <meta name="msapplication-TileImage" content="https://github.com/hubertmucyo" />    
+
+        <!-- HTML Meta Tags -->
+        <title>Mucyo Hubert's Portfolio 👋</title>
+        <meta name="description" content="Extensive experience in nuclear safety analyses and international project development.">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Mucyo Hubert's Portfolio 👋">
+        <meta property="og:description" content="Extensive experience in nuclear safety analyses and international project development.">
+        <meta property="og:image" content="https://github.com/hubertmucyo">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="erolbicer.com">
+        <meta property="twitter:url" content="">
+        <meta name="twitter:title" content="Mucyo Hubert's Portfolio 👋">
+        <meta name="twitter:description" content="Extensive experience in nuclear safety analyses and international project development.">
+        <meta name="twitter:image" content="https://github.com/hubertmucyo">
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2367QRTG56"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2367QRTG56');
+        </script>
+
+        <!-- Crisp Chatbot 
+        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f1ceb2e6-7b94-4347-b101-6c1389f7f827";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+        -->
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Mucyo Hubert</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-setting nav__icon"></i> Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#qualifications" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Qualifications
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact
+                            </a>
+                        </li>
+                        <!--
+                        <li class="nav__item">
+                            <a href="resume.html" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Resume
+                            </a>
+                        </li> -->
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme Change Buttons -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home" data-id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/hubert-mucyo-857ab62a0/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-book-open"></i>
+                            </a>
+                            <a href="https://github.com/hubertmucyo" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/perfil.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Mucyo Hubert</h1>
+                            <h3 class="home__subtitle">Software Engineer</h3>
+                            <p class="home__description">I am a goal driven Computer Science student at KDU with broad skills in Coding, web development, and Database Management.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about" data-id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.png" alt="Erol Bicer Nuclear Power Plants Summit Session" class="about__img">
+
+
+                    <div class="about__data">
+                        <p class="about__description">I am a goal driven,self-aware Student at General Sir John Kotelawala Defence University (KDU) and
+                             African Leadership University (ALU) with broad skills in computer science, Software engineering, database management, business management 
+                             and marketing.</p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">01+</span>
+                                <span class="about__info-name">Year <br> Experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">05+</span>
+                                <span class="about__info-name">Projects <br> Completed</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">02</span>
+                                <span class="about__info-name">Papers <br> Published</span>
+                            </div>
+                        </div>
+                    <!--
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/ErolBicer-Resume.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills" data-id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">Technical Competence</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Skills</h1>
+                                    <!-- <span class="skills__subtitle">More than 8 years</span> -->
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">APPLICATION DEVELOPMENT</h3>
+                                        <!--<span class="skills__number">Advanced</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">WEB DEVELOPMENT</h3>
+                                        <!--<span class="skills__number">Advanced</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">DATABASE MANAGEMENT</h3>
+                                        <!--<span class="skills__number">Advanced</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-vector-square skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Platforms</h1>
+                                    <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">GitHub</h3>
+                                        <!--<span class="skills__number">Proficient</span>--> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <!--<span class="skills__percantage skills__80"></span>-->
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Linked In</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <!--<span class="skills__percantage skills__20"></span>-->
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Medium</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <!--<span class="skills__percantage skills__20"></span>-->
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-arrow skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Coding Languages</h1>
+                                    <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PYTHON | RUBY</h3>
+                                        <!--<span class="skills__number">Proficient</span>--> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JAVA</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C++ | C</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML | CSS | Javascript | PHP</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>  
+
+                        <!--==================== SKILLS 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-code-branch skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Tools</h1>
+                                    <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python IDLE | Linux Container | PowerShell </h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">GitBash| Github | Git</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">VS Code | CMD | Codepen</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Dev C++ | NodeJs | Angular </h3>
+                                        <!--<span class="skills__number">Proficient</span>--> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Dev | LeetCode |Medium</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>  
+
+                    </div> 
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualifications" data-id="qualification">
+                <h2 class="section__title">Qualifications</h2>
+                <span class="section__subtitle">Academic and Professional Career</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                             <!--==================== QUALIFICATION  1 ====================-->
+                             <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__degree">Diploma</span>
+                                    <h3 class="qualification__title">Mathematics and Computer Science</h3>
+                                    <span class="qualification__subtitle">Saint Ignatius High School</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2022
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                             <!--==================== QUALIFICATION  2 ====================-->
+                             <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__degree">B.SC.</span>
+                                    <h4 class="qualification__title">Software Engineering</h4>
+                                    <span class="qualification__subtitle">African Leadership University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023 - Present
+                                    </div>
+                                </div>
+
+                            </div>
+
+                             <!--==================== QUALIFICATION  3 ====================-->
+                             <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__degree">B.SC.</span>
+                                    <h3 class="qualification__title">Computer Science</h3>
+                                    <span class="qualification__subtitle">General Sir John Kotelawala Defence University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2024 - Present
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                            </div>
+
+                             <!--==================== QUALIFICATION  4 ====================-->
+                             <div class="qualification__data">
+                                <!-- <div></div> -->
+
+                                <!-- <div>
+                                    <span class="qualification__rounder"></span> -->
+                                    <!-- <span class="qualification__line"></span> -->
+                                <!-- </div> -->
+
+                                <!-- <div>
+                                    <h3 class="qualification__title">Nuclear Engineer</h3>
+                                    <span class="qualification__subtitle">Hacettepe University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2008 - 2013
+                                    </div>
+                                </div> -->
+
+
+                                
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION  1 ====================-->
+                            <div class="qualification__data">
+                               <div>
+                                   <h3 class="qualification__title">FreeLance Data Manager</h3>
+                                   <span class="qualification__subtitle">Yabes Company Ltd.</span>
+                                   <div class="qualification__calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2022
+                                   </div>
+                               </div>
+                               <div>
+                                   <span class="qualification__rounder"></span>
+                                   <span class="qualification__line"></span>
+                               </div>
+                           </div>
+
+        
+
+
+                       </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects section" id="projects" data-id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Projects Worked On</span>
+
+                <!-- Projects Grid -->
+                <div class="projects__container container">
+                    <!-- Project Card 1 -->
+                    <div class="projects__content paper__card" data-category="journal">
+                        <img src="assets/img/journal.png" alt="Pool Scrubbing Simulation" class="paper__img">
+                        <h5 class="projects__title">A Novel Correlation for Bubble Size Variation in the Swarm Region under Pool Scrubbing Conditions</h5>
+                        <a href="https://doi.org/10.1016/j.pnucene.2024.105366" target="_blank" class="button button--flex button--small projects__button">
+                            Read More <i class="uil uil-external-link-alt button__iconsmall"></i>
+                        </a>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="projects__content paper__card" data-category="journal">
+                        <img src="assets/img/journal.png" alt="Bubble Diameter Correlation" class="paper__img">
+                        <h5 class="projects__title">Investigation of Equivalent Spherical Bubble Diameter at High Inlet Velocity Pool Scrubbing Conditions</h5>
+                        <a href="https://doi.org/10.1016/j.net.2024.05.036" target="_blank" class="button button--flex button--small projects__button">
+                            Read More <i class="uil uil-external-link-alt button__iconsmall"></i>
+                        </a>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="projects__content paper__card" data-category="proceedings">
+                        <img src="assets/img/nthas13.png" alt="Pool Scrubbing Analysis" class="paper__img">
+                        <h5 class="projects__title">Improving Swarm Region Modeling in Pool Scrubbing through a Mean Bubble Size Approach</h5>
+                        <a href="https://erolbicer.com" target="_blank" class="button button--flex button--small projects__button">
+                            Read More <i class="uil uil-external-link-alt button__iconsmall"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PAPERS ====================-->
+            <section class="papers section" id="paper" data-id="paper">
+                <h2 class="section__title">Papers</h2>
+                <span class="section__subtitle">Published Papers</span>
+            
+                <!-- Filter Buttons -->
+                <div class="filter__buttons">
+                    <button class="filter__btn active" data-filter="all">All</button>
+                    <button class="filter__btn" data-filter="journal">Journal</button>
+                    <button class="filter__btn" data-filter="proceedings">Proceedings</button>
+                </div>
+            
+                <!-- Papers Grid -->
+                <div class="papers__grid container">
+                    <!-- Journal -->
+                    <div class="paper__card" data-category="journal">
+                        <img src="assets/img/journal.png" alt="Pool Scrubbing Simulation" class="paper__img">
+                        <h5 class="paper__title">A Novel Correlation for Bubble Size Variation in the Swarm Region under Pool Scrubbing Conditions</h5>
+                         <a href="https://doi.org/10.1016/j.pnucene.2024.105366" target="_blank" class="button button--flex button--small paper__button">
+                            Read More  <i class="uil uil-external-link-alt button__iconsmall "></i>
+                        </a>
+                    </div>
+
+                    <div class="paper__card" data-category="journal">
+                        <img src="assets/img/journal.png" alt="Bubble Diameter Correlation" class="paper__img">
+                        <h5 class="paper__title">Investigation of Equivalent Spherical Bubble Diameter at High Inlet Velocity Pool Scrubbing Conditions</h5>
+                        <a href="https://doi.org/10.1016/j.net.2024.05.036" target="_blank" class="button button--flex button--small paper__button">
+                            Read More  <i class="uil uil-external-link-alt button__iconsmall "></i>
+                        </a>
+                    </div>
+            
+                    <!-- Proceedings -->
+                    <div class="paper__card" data-category="proceedings">
+                        <img src="assets/img/nthas13.png" alt="Pool Scrubbing Analysis" class="paper__img">
+                        <h5 class="paper__title">Improving Swarm Region Modeling in Pool Scrubbing through a Mean Bubble Size Approach</h5>
+                         <a href="https://erolbicer.com" target="_blank" class="button button--flex button--small paper__button">
+                            Read More  <i class="uil uil-external-link-alt button__iconsmall "></i>
+                        </a>
+                    </div>
+            
+                    <div class="paper__card" data-category="proceedings">
+                        <img src="assets/img/kns.png" alt="Pool Scrubbing Code" class="paper__img">
+                        <h5 class="paper__title">Improvement of Swarm Rise Region Modelling in SPARC-90 Pool Scrubbing Code</h5>
+                        <a href="https://erolbicer.com" target="_blank" class="button button--flex button--small paper__button">
+                            Read More  <i class="uil uil-external-link-alt button__iconsmall "></i>
+                        </a>
+                    </div>
+            
+                    <!-- Add more paper cards here -->
+
+                    <!-- Load More Button -->
+
+                </div>
+
+                <div class="load-more-container">
+                    <button class="load-more-btn button button--flex button--small">
+                        Load More <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </button>
+                </div>
+
+            </section>
+            
+            <!--==================== REQUEST MEETING ====================-->
+            <section class="project section" id="meeting">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">Do you have any questions?</h2>
+                            <p class="project__description">Schedule a meeting and lets discuss!</p>
+                            <!-- <a href="#meeting" class="button button--flex button--white">
+                                Send a Request
+                                <i class="uil uil-message project_icon button__icon"></i>
+                            </a> -->
+                            <a href="#meeting" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hubertmucy'});return false;" class="button button--flex button--white">
+                                Send a Request
+                                <i href="#meeting" class="uil uil-message project_icon button__icon"></i>
+                            </a>
+                        </div>
+                        <img src="assets/img/perfil.png" alt="Erol Bicer" class="project__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section" id="testimonials">
+                <h2 class="section__title">References</h2>
+                <span class="section__subtitle">Testimonials</span>
+
+                <div class="testimonial__container container swiper">
+                    <div class="swiper-wrapper">
+                         <!--==================== TESTIMONIAL 1 ====================-->
+                         <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/dsk.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Mr. David S. Kessel</h3>
+                                        <span class="testimonial__client">KINGS, Research Professor</span>
+                                    </div>
+                                </div>
+                                <!-- <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div> -->
+                            </div>
+                            <p class="testimonial__description">I have known Erol since 2014 when he was in my systems engineering class at KINGS and I can say without reservation that he is bright, hard working, and of the highest integrity.</p>
+                         </div>
+                         
+                         <!--==================== TESTIMONIAL 2 ====================-->
+                         <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/ad.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Dr. Aya Diab</h3>
+                                        <span class="testimonial__client">KINGS, Associate Professor</span>
+                                    </div>
+                                </div>
+                                <!-- <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div> -->
+                            </div>
+                            <p class="testimonial__description">I met Erol in 2016, and ever since he always impressed me with his zeal to expand his knowledge, hone his skills and take on new challenges to enhance his career.</p>
+                         </div>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
+            </section>
+
+            
+
+
+            <!--==================== ONLINE MEETING ====================-->
+            <!-- <section class="meeting section" id="meeting">
+                <h2 class="section__title">Online Meeting</h2>
+                <span class="section__subtitle">Send a Request</span>
+
+                <div class="meeting__container container grid">
+                    <div class="meeting__content">
+                        <div class="zeeg__container">
+                            <iframe class="iframe-meeting" width="100%" height="100%" src="https://zeeg.me/erol/onlinemeeting"></iframe>
+                         </div>                        
+                    </div>   
+                 </div>
+            </section> -->
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact" data-id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in Touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+250 788 450 169</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <p><a class="contact__subtitle" href="mailto:erolbicer@live.com">hubertmucy@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Rwanda</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Full Name</label>
+                                <input type="text" placeholder="Enter full name" class="contact__input" id="fullName" onkeyup="validateName()">
+                                <span id="name-error" class="contact__subtitle"></span>
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" placeholder="Enter email address" class="contact__input" id="email_id" onkeyup="validateEmail()">
+                                <span id="email-error" class="contact__subtitle"></span>
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Subject</label>
+                            <input type="text" id="subject" placeholder="Enter a subject line" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" cols="0" rows="7" placeholder="Enter your message" class="contact__input" id="message" onkeyup="validateMessage()"></textarea>
+                            <span id="message-error" class="contact__subtitle"></span>
+                        </div>
+                        <div>
+                            <a onclick="return SendMail()" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <a href="#" class="footer__title">Mucyo Hubert </a><br>
+                        <span class="footer__subtitle">Software Engineer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#qualifications" class="footer__link">Qualifications</a>
+                        </li>
+
+                        <li>
+                            <a href="#testimonials" class="footer__link">References</a>
+                        </li>
+
+                        <li>
+                            <a href="#paper" class="footer__link">Papers</a>
+                        </li>
+
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+
+                        <li>
+                            <a href="#meeting" class="footer__link">Meeting</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/hubert-mucyo-857ab62a0/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://medium.com/@h.mucyo" target="_blank" class="footer__social">
+                            <i class="uil uil-book-open"></i>
+                        </a>
+
+                        <a href="https://github.com/hubertmucyo" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; All rights reserved.</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
