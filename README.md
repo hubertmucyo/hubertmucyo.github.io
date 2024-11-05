@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # myportfolio.github.io
 =======
 # Mucyo Responsive Portfolio Website
@@ -21,5 +21,3 @@
 ### Landing Page Dark
 
 ![preview img](./assets/snaps/dark.png)
-
->>>>>>> master
