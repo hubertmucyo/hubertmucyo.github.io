@@ -341,3 +341,11 @@ loadMoreBtn.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     filterPapers('all'); // Initialize with "all" filter on page load
 });
+
+
+/* CRISP chatbot*/
+type="text/javascript">window.$crisp=[];
+window.CRISP_WEBSITE_ID="9f5068a3-aca2-4277-b9ba-7641fac6dea8";
+(function(){d=document;s=d.createElement("script");
+s.src="https://client.crisp.chat/l.js";
+s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
