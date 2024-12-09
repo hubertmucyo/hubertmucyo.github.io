@@ -70,7 +70,7 @@
 }
 
 /*========== Variables Dark theme ==========*/
-body.dark-theme{
+html body.dark-theme{
   --first-color-second: hsl(var(--hue-color), 29%, 16%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
