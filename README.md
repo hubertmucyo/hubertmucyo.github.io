@@ -1,8 +1,3 @@
-
-# myportfolio.github.io
-=======
-# Mucyo Responsive Portfolio Website
-
 - The resume is created on [FlowCV](https://flowcv.com/)
 - The email service provider is [EmailJs](https://www.emailjs.com/)
 - Contact form validations are added using [JavaScript](https://www.youtube.com/watch?v=fz8bwvn9lA4) 
@@ -14,10 +9,4 @@
 - Online meeting integration is from [Calendly](https://calendly.com/)
 - Chatbot integration is from [Crisp](https://crisp.chat/en/)
 
-### Landing Page Light
 
-![preview img](./assets/snaps/light.png)
-
-### Landing Page Dark
-
-![preview img](./assets/snaps/dark.png)
